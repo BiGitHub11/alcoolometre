@@ -5,12 +5,12 @@ import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { DateTimePicker } from "@mui/x-date-pickers/DateTimePicker";
 import Stack from "@mui/material/Stack";
 import InputLabel from "@mui/material/InputLabel";
-
+import fr from "date-fns/locale/fr";
 export default function Heure({ formData, setFormData }) {
   return (
     <div>
       <InputLabel>Quand as-tu bu pour la dernière fois ?</InputLabel>
-      <LocalizationProvider dateAdapter={AdapterDateFns}>
+      <LocalizationProvider adapterLocale={fr} dateAdapter={AdapterDateFns}>
         <Stack spacing={2}>
           <DateTimePicker
             ampm={false}
