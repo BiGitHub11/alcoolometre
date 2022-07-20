@@ -67,10 +67,10 @@ export default function Alcoolometre() {
     <Grid container>
       <Grid item xs={12} md={12}>
         <Item>
-          <h1>Alcoolometre</h1>
+          <h1>Alcoolomètre</h1>
           <p>
-            Vous avez bus quelques verres, vous vous demandez si vous êtes aptes
-            à conduire, l'Alcoolometre est là pour calculer votre taux
+            Vous avez bu quelques verres, vous vous demandez si vous êtes aptes
+            à conduire, l'Alcoolomètre est là pour calculer votre taux
             d'alcoolémie.
           </p>
         </Item>
