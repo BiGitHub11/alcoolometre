@@ -29,7 +29,7 @@ export default function Boissons({ formData, setFormData }) {
         />
       </div>
       <div>
-        <InputLabel>A combien de degré ?</InputLabel>
+        <InputLabel>À combien de degré ?</InputLabel>
         <Input
           sx={{ m: 2 }}
           type="number"
@@ -66,7 +66,7 @@ export default function Boissons({ formData, setFormData }) {
               />
             </div>
             <div>
-              <InputLabel>A combien de degré ?</InputLabel>
+              <InputLabel>À combien de degré ?</InputLabel>
               <Input
                 sx={{ m: 2 }}
                 type="number"
