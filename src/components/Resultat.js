@@ -143,7 +143,8 @@ export default function Resultat({ formData, setFormData }) {
             <CardActionArea>
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Erreur {formData.prenom} !
+                  Erreur, il vous manque des informations, veuillez recommencer.{" "}
+                  {formData.prenom} !
                 </Typography>
                 <Typography variant="body2" color="text.secondary"></Typography>
               </CardContent>
@@ -152,10 +153,5 @@ export default function Resultat({ formData, setFormData }) {
         );
     }
   };
-  return (
-    <div>
-      <div>Votre taux d'alcoolémie</div>
-      {AlcoolReponse()}
-    </div>
-  );
+  return <div>{AlcoolReponse()}</div>;
 }
