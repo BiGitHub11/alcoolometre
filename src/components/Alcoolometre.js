@@ -45,7 +45,7 @@ export default function Alcoolometre() {
     dateheure: [new Date("2022-07-00T00:00")]
   });
   // Permet de se situer sur la page ouverte par l'utilisateur et lui afficher le contenu approprié avec en paramètre les props
-  const StepDisplayHTML = () => {
+  const stepDisplayHTML = () => {
     switch (step) {
       case 0:
         return <Prenom formData={formData} setFormData={setFormData} />;
@@ -98,7 +98,7 @@ export default function Alcoolometre() {
           </Box>
           <h2>{steps[step]}</h2>
 
-          {StepDisplayHTML()}
+          {stepDisplayHTML()}
           {step !== 5 ? (
             <div>
               <Button
