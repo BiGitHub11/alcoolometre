@@ -9,7 +9,7 @@ import InputLabel from "@mui/material/InputLabel";
 export default function Heure({ formData, setFormData }) {
   return (
     <div>
-      <InputLabel>Quand as tu bu pour la dernière fois ?</InputLabel>
+      <InputLabel>Quand as-tu bu pour la dernière fois ?</InputLabel>
       <LocalizationProvider dateAdapter={AdapterDateFns}>
         <Stack spacing={2}>
           <DateTimePicker
