@@ -45,7 +45,7 @@ export default function Resultat({ formData, setFormData }) {
   };
 
   // Switch qui permet de d'afficher un display selon l'état de l'utilisateur
-  const AlcoolReponse = () => {
+  const alcoolReponse = () => {
     switch (true) {
       case getTa() < 0.5:
         return (
@@ -153,5 +153,5 @@ export default function Resultat({ formData, setFormData }) {
         );
     }
   };
-  return <div>{AlcoolReponse()}</div>;
+  return <div>{alcoolReponse()}</div>;
 }
