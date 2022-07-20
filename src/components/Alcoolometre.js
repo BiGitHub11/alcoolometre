@@ -10,9 +10,7 @@ import Heure from "./Heure.js";
 import Resultat from "./Resultat.js";
 import Poids from "./Poids.js";
 import Box from "@mui/material/Box";
-import BorderLinearProgress, {
-  linearProgressClasses
-} from "@mui/material/LinearProgress";
+import BorderLinearProgress from "@mui/material/LinearProgress";
 
 // Création d'un style à partir du theme de base de material-ui pour faire le css des Item
 const Item = styled(Paper)(({ theme }) => ({
@@ -37,8 +35,8 @@ export default function Alcoolometre() {
   ];
   // Création d'attributs et de leur état
   const [formData, setFormData] = useState({
-    prenom: "Pauline",
-    genre: "H",
+    prenom: "",
+    genre: "",
     poids: 0,
     boissoncl: 0,
     boissondegre: 0,
